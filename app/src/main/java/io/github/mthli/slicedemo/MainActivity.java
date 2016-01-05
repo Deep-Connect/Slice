@@ -81,7 +81,7 @@ public class MainActivity extends Activity {
                 slice.showLeftBottomRect(true);
                 slice.showTopEdgeShadow(true);
                 slice.showBottomEdgeShadow(false);
-            } else if (viewType == VIEW_TYPE_CENTER) {
+            } else if (viewType == VIEW_TYPE_BOTTOM) {
                 slice.setRadius(8.0f);
                 slice.showLeftTopRect(true);
                 slice.showRightTopRect(true);
